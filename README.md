@@ -2,34 +2,33 @@
 
 Text-Similarity-Analysis-System-Based-on-Doc2Vec-for-Chinese-Documents
 
-一个可复现、可扩展、带可视化输出的中文文本相似度分析项目。
+**一个可复现、可扩展、带可视化输出的中文文本相似度分析项目。**
 尤其适合作业提交、课程实验、科研 Demo、GitHub 项目展示。
 
 ## 📌 项目简介 | Project Overview
 
-本项目实现了一个 多维度的中文文本相似度分析系统，利用 Microsoft Research Segment 中文分词语料库训练 Doc2Vec 文档向量模型，并结合 TF-IDF、Jaccard、文本长度、向量距离等多个指标，对两篇中文网页文本进行全面比较，并以图表方式进行可视化展示。
+本项目实现了一个**多维度的中文文本相似度分析系统**，利用 Microsoft Research Segment 中文分词语料库训练**Doc2Vec 文档向量模型**，并结合 TF-IDF、Jaccard、文本长度、向量距离等多个指标，对两篇中文网页文本进行全面比较，并以图表方式进行可视化展示。
 
 - 🧠 不仅提供结果，还提供背后的语义结构解释。
 - 📈 不仅计算相似度，还提供多维度雷达图、PCA、t-SNE 可视化。
 - 📄 还输出一份文本解释报告（text_explanation.txt），方便上交作业或论文引用。
 
-## ✨ 功能亮点 
-| Features
+## ✨ 功能亮点 | Features
+
 | 功能 | 说明 |
-🔍 Doc2Vec 文档向量建模	完整训练流程 + 文档向量推断
-📊 多指标相似度计算	Doc2Vec、TF-IDF、Jaccard、长度相似度、欧氏距离
-🌈 雷达图可视化	展示多个指标的相似度构成
-🎨 PCA / t-SNE 可视化	拍出“文本语义空间”两张高质量图
-📝 文本解释报告输出	自动生成 text_explanation.txt（用于报告/论文）
-📁 输出 CSV 指标表	metrics_table.csv 便于导入 Excel 或论文作图
-🧩 编码自动识别处理	ANSI + UTF-8 混合文件自动处理
-🎯 语义 + 词汇 + 写作特征全覆盖	多角度解释文本接近度
-🧪 项目效果展示 | Results
+|------|-----------|
+| 🔍 Doc2Vec 文档向量建模 | 完整训练流程 + 文档向量推断 |
+| 📊 多指标相似度计算 | Doc2Vec、TF-IDF、Jaccard、长度相似度、欧氏距离 |
+| 🌈 雷达图可视化 | 展示多个指标的相似度构成 |
+| 🎨 PCA / t-SNE 可视化 | 拍出“文本语义空间”两张高质量图 |
+| 📝 文本解释报告输出 | 自动生成 text_explanation.txt（用于报告/论文） |
+| 📁 输出 CSV 指标表 | metrics_table.csv 便于导入 Excel 或论文作图 |
+| 🧩 编码自动识别处理 | ANSI + UTF-8 混合文件自动处理 |
+| 🎯 语义 + 词汇 + 写作特征全覆盖 | 多角度解释文本接近度 |
+	
+## 🧪 项目效果展示 | Results
 
-以下内容可直接插入 README（替换为你的图）
-若你上传了图片，我可以帮你自动转成 GitHub 可用格式。
-
-📌 文档相似度雷达图（radar.png）
+### 📌 文档相似度雷达图（radar.png）
 
 （图：radar.png）
 
